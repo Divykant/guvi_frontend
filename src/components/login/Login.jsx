@@ -12,6 +12,7 @@ const Login = () => {
     e.preventDefault();
     // You can add form validation and signup logic here
     // console.log(name, email, password);
+    navigate("/home");
     axios
       .post(
         "http://localhost:3001/login",
